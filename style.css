@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color:white;
+    height: 900px;
+    margin-left: 30px;
+    width: 1300px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.side-bar{
+    display: flex;
+}
+p.left-bar{
+    font-family: "arial";
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.fa-ellipsis{
+    font-size: 18px;
+    margin-top: 37px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+img.dots{
+    width: 20px;
+    margin-top: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.fa-pen-to-square{
+font-size: 18px;
+margin-top: 37px;
+margin-left: 10px;
+cursor: pointer;
+}
+.img-bar{
+    display: flex;
+}
+img.one{
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+ p.name-chat{
+    font-family: "Arial";
+    margin-top: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.img-bar-2{
+    display: flex;
+}
+img.two{
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.how-chat{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+    font-family: "arial";
+}
+p.how-chat{
+    width: 15%;
+    height: 10px;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+p.name-chat-2{
+    font-family: "Arial";
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text-2{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.img-bar-3{
+    display: flex;
+}
+img.three{
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.name-chat-3{
+    font-family: "Arial";
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text-3{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.img-bar-4{
+    display: flex;
+}
+img.four{
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.name-chat-4{
+    font-family: "Arial";
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text-4{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+p.text-4{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: "arial";
+}
+.img-bar-5{
+    display: flex;
+}
+img.five{
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.name-chat-5{
+    font-family: "Arial";
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text-5{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+p.text-5{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: "arial";
+}
+.img-bar-6{
+    display: flex;
+}
+img.six{
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.name-chat-6{
+    font-family: "Arial";
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+p.chat-text-6{
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+p.text-6{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: "arial";
+}
+.img-bar-7{
+    display: flex;
+}
+img.seven{
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+p.name-chat-7{
+    font-family: "Arial";
+    margin-top: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.chat-on{
+    width: 38px;
+    height: 17px;
+    margin-top: 45px;
+    margin-left: 30px;
+    border: 1px solid rgb(155 , 155 , 155);
+    border-radius: 20px;
+    background-color:rgb(155, 155, 155);
+    cursor: pointer;
+}
+.chat-of{
+    width: 15px;
+    height: 13px;
+    border-radius: 50%;
+    margin-top: 48px;
+    margin-left: -37px;
+    background-color: white;
+    cursor: pointer;
+}
+.fa-gear{
+    margin-top: 46px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+}
+.stay{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 720px;
+    width: 120px;
+    height: 30px;
+    margin-top: -535px;
+    border-radius: 10px;
+}
+p.you{
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 125px;
+}
+p.main-time{
+    margin-left: 90px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+
+.container{
+    display: flex;
+}
+.reply{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 610px;
+    width: 230px;
+    height: 30px;
+    margin-top: -480px;
+    border-radius: 10px;
+}
+p.reply-text{
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 235px;
+}
+p.main-time-2{
+    margin-left: 200px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+
+
+.container-3{
+    display: flex;
+}
+.reply-3{
+    background-color: white;
+    margin-left: 540px;
+    width: 250px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    margin-top: -430px;
+    border-radius: 10px;
+}
+p.reply-text-3{
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-3{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: -45px;
+}
+p.main-time-3{
+    margin-left: 10px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+
+.container-4{
+    display: flex;
+}
+.reply-4{
+    background-color: white;
+    margin-left: 540px;
+    width: 190px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    margin-top: -370px;
+    border-radius: 10px;
+}
+p.reply-text-4{
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-4{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: -45px;
+}
+p.main-time-4{
+    margin-left: 10px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-5{
+    display: flex;
+}
+.reply-5{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 610px;
+    width: 230px;
+    height: 30px;
+    margin-top: -320px;
+    border-radius: 10px;
+}
+p.reply-text-5{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-5{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 235px;
+}
+p.main-time-5{
+    margin-left: 200px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-6{
+    display: flex;
+}
+.reply-6{
+    background-color: white;
+    margin-left: 540px;
+    width: 260px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+p.reply-text-6{
+    margin-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-6{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: -45px;
+}
+p.main-time-6{
+    margin-left: 10px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-7{
+    display: flex;
+}
+.reply-7{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 610px;
+    width: 230px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+p.reply-text-7{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-7{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 235px;
+}
+p.main-time-7{
+    margin-left: 200px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-8{
+    display: flex;
+}
+.reply-8{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 610px;
+    width: 230px;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+p.reply-text-8{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+img.content-item-8{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 235px;
+}
+p.main-time-8{
+    margin-left: 200px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-9{
+    display: flex;
+}
+img.content-item-9{
+    width: 40px;
+    border-radius: 50px;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+.reply-9{
+    display: flex;
+}
+.reply-9{
+background-color:white;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+width: 200px;
+height: 30px;
+margin-left: 550px;
+margin-top: 30px;
+border-radius: 10px;
+}
+p.reply-9-9{
+    margin-top: 5px;
+    font-family: "Arial";
+    margin-left: 20px;
+   
+}
+p.main-time-9{
+    margin-left: 10px;
+    color: black;
+    margin-top: 20px;
+    font-size: 10px;
+    font-family: "arial";
+}
+.container-10{
+    display: flex;
+}
+.reply-10{
+    background-color: rgb(21, 21, 79);
+    color: rgb(231, 231, 231);
+    margin-left: 580px;
+    width: 260px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+p.reply-text-10{
+    font-family: "arial";
+    margin-left: 20px;
+    margin-top: 5px;
+}
+img.content-item-10{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 265px
+}
+p.main-time-10{
+    margin-left: 230px;
+    color: black;
+    font-size: 10px;
+    font-family: "arial";
+}
+.header{
+    display: flex;
+}
+.fa-plus{
+margin-left:  -310px;
+color: grey;
+margin-top: 57px;
+font-size: 14px;
+}
+input.text{
+    width: 260px;
+    margin-top: 40px;
+    margin-left: 490px;
+    height: 25px;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    border: 0pc solid;
+    padding-left: 3rem;
+   
+    }
+.fa-face-smile{
+        margin-top: 55px;
+        cursor: pointer;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+img.text-send{
+    width: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
